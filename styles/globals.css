@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .link {
+          @apply cursor-pointer hover:underline  border-none  hover:border-white
+    }
+    .button_add{
+            @apply cursor-pointer bg-gradient-to-t from-yellow-200 to-yellow-400 focus:ring-yellow-300 outline-none rounded-md p-2 border-yellow-300 focus:ring-2 active:from-yellow-300
+  }
+}
