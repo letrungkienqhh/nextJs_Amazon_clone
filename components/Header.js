@@ -39,7 +39,7 @@ const Header = () => {
                     <p className="font-semibold sm:text-sm">&Orders</p>
                 </div>
                 <div className='relative link flex items-center cursor-pointer' onClick={()=>router.push('/checkout')} >
-                    <span className="absolute md:right-5 right-0 top-0 bg-yellow-400 rounded-full text-center text-black h-4 w-4">{items.length}</span>
+                    <span className="absolute md:right-5 right-0 top-0 bg-yellow-400 rounded-full text-center text-black h-4 w-4">{itemList.length}</span>
                     <ShoppingCartIcon className="h-10 p-1" />
                     <p className="hidden md:inline font-semibold sm:text-sm ">Cart</p>
                 </div>

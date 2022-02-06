@@ -3,6 +3,7 @@ import Currency from 'react-currency-formatter';
 import Image from 'next/image'
 import React, { useState } from 'react'
 import {addItem} from '../slices/basket'
+import { useDispatch } from 'react-redux';
 const   MAX_rating =5
 const    MIN_rating =1
 const Product = ({id,title,image,price,description,category}) => {
